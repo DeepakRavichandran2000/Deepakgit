@@ -1,0 +1,27 @@
+\program to create an operations  of add,subtract,multiply,division using functions\
+def add(x,y):
+  return x+y
+def subtract(x,y):
+  return x-y
+def multiply(x,y)
+  return x*y
+def divide(x,y)
+  return x/y
+num1 = float(input("Enter a number :"))
+a = input("Enter your selected operator :")
+num2 = float(input("Enter another number :"))
+
+if a == "+":
+  print(num1, "+", num2, "=", add(num1, num2))
+
+elif a == "-":
+  print(num1, "-", num2, "=", subtract(num1, num2))
+
+elif a == "*":
+  print(num1, "*", num2, "=", multiply(num1, num2))
+
+elif a == "/":
+  print(num1, "/", num2, "=", divide(num1, num2))
+
+else:
+  print("Invalid input")
